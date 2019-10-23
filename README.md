@@ -9,7 +9,7 @@ You will need:
   - Female DSub9 (to plug into the Amiga)
   
 Connect:
-
+```
   PS2 Mouse         Arduino Pin
   CLOCK              D11 
   DATA               D12
@@ -27,7 +27,8 @@ Connect:
   7                   5V
   8                   GND 
   9                   D7
-  
+```
+
 Upload the INO to the Arduino 
 
 Double-Check ! Connections !
