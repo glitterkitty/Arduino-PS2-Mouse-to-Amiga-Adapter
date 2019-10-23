@@ -13,7 +13,7 @@
  * 
  * Data from PS2-Mouse:
  * 
- * data0[2:1:0]  ->  middle,lright, eft mb
+ * data0[2:1:0]  ->  middle,right, left mousebutton
  * data1         ->  x from -127 to + 127   signed int
  * data2         ->  y from -127 to + 127   signed int
  * 
@@ -171,7 +171,7 @@ void setup() {
     mouse.initialize();
   
     // tell me sth. 'bout you...
-    Serial.println("Hi, I'm an PS2 to amiga mouse adapter! \nConnect");
+    Serial.println("Hi, I'm a PS2 to amiga mouse adapter! \nConnect");
     
     Serial.print("PS2 Data:       D");
     Serial.println(MOUSE_DATA);
